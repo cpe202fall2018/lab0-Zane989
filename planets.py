@@ -1,5 +1,5 @@
 def weight_on_planets():
-    weight_input = int(input("What do you weigh on earth? "));
+    weight_input = float(input("What do you weigh on earth? "));
     mars = weight_input * 0.38;
     jupiter = weight_input * 2.34;
 
